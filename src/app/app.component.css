@@ -1,0 +1,345 @@
+
+
+
+.page-container{
+    background-color: blueviolet;
+    /* width: 1920px; */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+
+/* Desktop -START----------------------------------------------------------- */
+@media only screen and (min-width: 1008px) {
+
+    .form{
+        background-color: lightblue;
+        min-height: 400px;
+    }
+
+    .user-profile-area{
+
+    }
+
+    .area-header{
+        background-color: lightcyan;
+        /* border: solid 1px; */
+        padding: 15px;
+    }
+
+    .user-profile-input-area{
+        /* border-right: solid 1px;
+        border-left: solid 1px; */
+        padding: 10px;
+        display: flex;
+        
+    }
+
+    .name-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .organization-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px;
+    }
+
+    label{
+        margin-bottom: 10px;
+    }
+
+    .contact-information-area{
+
+    }
+
+    .multi-contact-area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-information-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .type-and-contact-input-area{
+        display: flex;
+    }
+
+    .type-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .contact-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .email-phone-input-area{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .contact-button-area{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .contact-list-is-empty{
+        padding: 15px;
+    }
+
+    .form-buttons-area{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        padding: 10px;
+    }
+
+    button{
+        margin: 5px;
+    }
+
+    ::ng-deep mat-form-field .mat-form-field-infix {
+        border-top: 0px;
+    }
+
+    
+}
+/* Desktop -END----------------------------------------------------------- */
+
+
+/* Tablet -START----------------------------------------------------------- */
+@media only screen and (max-width: 1007px) {
+
+    .form{
+        background-color: lightblue;
+        min-height: 400px;
+    }
+
+    .user-profile-area{
+
+    }
+
+    .area-header{
+        background-color: lightcyan;
+        /* border: solid 1px; */
+        padding: 15px;
+    }
+
+    .user-profile-input-area{
+        /* border-right: solid 1px;
+        border-left: solid 1px; */
+        padding: 10px;
+        display: flex;
+        
+    }
+
+    .name-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .organization-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px;
+    }
+
+    label{
+        margin-bottom: 10px;
+    }
+
+    .contact-information-area{
+
+    }
+
+    .contact-information-input-area{
+        display: flex;
+        flex-direction: column;
+        /* width: 50%; */
+        padding: 10px;
+    }
+
+    .type-and-contact-input-area{
+        display: flex;
+    }
+
+    .type-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .contact-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .email-phone-input-area{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .contact-button-area{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .contact-list-is-empty{
+        padding: 15px;
+    }
+
+    .form-buttons-area{
+        display: flex;
+        justify-content: center;
+        /* width: 50%; */
+        padding: 10px;
+    }
+
+    button{
+        margin: 5px;
+    }
+
+    ::ng-deep mat-form-field .mat-form-field-infix {
+        border-top: 0px;
+    }
+    
+}
+/* Tablet -END----------------------------------------------------------- */
+
+
+/* Mobile -START----------------------------------------------------------- */
+@media only screen and (max-width: 576px) {
+
+    .form{
+        background-color: lightblue;
+        min-height: 400px;
+    }
+
+    .user-profile-area{
+
+    }
+
+    .area-header{
+        background-color: lightcyan;
+        /* border: solid 1px; */
+        padding: 15px;
+    }
+
+    .user-profile-input-area{
+        /* border-right: solid 1px;
+        border-left: solid 1px; */
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .organization-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    label{
+        margin-bottom: 10px;
+    }
+
+    .contact-information-area{
+
+    }
+
+    .contact-information-input-area{
+        display: flex;
+        flex-direction: column;
+        /* width: 50%; */
+        padding: 10px;
+    }
+
+    .type-and-contact-input-area{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .type-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contact-input-area{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .email-phone-input-area{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .contact-button-area{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .contact-list-is-empty{
+        padding: 15px;
+    }
+
+    .form-buttons-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* width: 50%; */
+        padding: 10px;
+    }
+
+    button{
+        margin: 5px;
+    }
+
+    ::ng-deep mat-form-field .mat-form-field-infix {
+        border-top: 0px;
+    }
+
+}
+/* Mobile -END----------------------------------------------------------- */
+
+
+
